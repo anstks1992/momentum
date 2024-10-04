@@ -13,6 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: white;
 }
 
 .hidden {
@@ -21,12 +22,10 @@ body {
 
 #greeting {
   font-size: 50px;
-  color: white;
   margin: 0;
 }
 
 #clock {
-  color: white;
   font-size: 120px;
   margin: 0;
 }
