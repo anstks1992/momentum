@@ -30,6 +30,19 @@ body {
   margin: 0;
 }
 
+input[type="text"] {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px white solid;
+  background: none;
+}
+input:focus {
+  outline: none;
+}
+input::placeholder {
+  color: white;
+}
 img {
   position: absolute;
   z-index: -1;
